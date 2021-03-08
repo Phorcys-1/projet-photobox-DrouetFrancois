@@ -1,4 +1,4 @@
-
+import {load} from "./lib/gallery";
 
 document.querySelector('#load_gallery')
   .addEventListener('click',  e => {
@@ -8,3 +8,5 @@ document.querySelector('#load_gallery')
 function afficherImage(params) {
   
 }
+
+load();
