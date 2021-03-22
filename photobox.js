@@ -1,5 +1,6 @@
 import {load, lIdPhotos} from "./lib/gallery.js";
 import {loadPicture} from "./lib/photoloader.js"
+import {displayPicture} from "./lib/ui.js"
 
 
 
